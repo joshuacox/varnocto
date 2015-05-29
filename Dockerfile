@@ -1,0 +1,8 @@
+FROM jacksoncage:varnish
+MAINTAINER Josh Cox <josh 'at' webhosting.coop>
+
+ENV VARNISH_BACKEND_PORT 80
+# ENV VARNISH_BACKEND_IP 172.17.42.1
+ENV VARNISH_PORT 80
+# LINK_SERVICE jekyll
+EXPOSE 80
