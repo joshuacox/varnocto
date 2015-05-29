@@ -1,4 +1,4 @@
-FROM jacksoncage:varnish
+FROM jacksoncage/varnish
 MAINTAINER Josh Cox <josh 'at' webhosting.coop>
 
 ENV VARNISH_BACKEND_PORT 80
